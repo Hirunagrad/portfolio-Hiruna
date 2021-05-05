@@ -2,6 +2,8 @@ import React from 'react';
 import '../home.css';
 import FullPageIntroWithFixedNavbar from './navbar';
 import FooterPage from './footer';
+import profile from './portmy.png';
+import pattern from './pattern.png';
 
 
 function Home() {
@@ -31,11 +33,38 @@ function Home() {
 
                               <a href='#' className="cv-btn">Download Cv</a>
                           </div>
+                         <br/>
+                         <br/>
+                        
+
+                          <div className="sicons">
+                           <a href=""><i class="fab fa-linkedin"></i></a> 
+                           <a href=""><i class="fab fa-github"></i></a> 
+                           <a href=""><i class="fab fa-facebook"></i></a> 
+                           <a href=""><i class="fab fa-whatsapp"></i></a> 
+                           <a href=""><i class="fab fa-instagram"></i></a> 
+                          </div>
+                        
                       </div>
+
+                      
+
+                      <div className="col-sm-12 col-lg-6">
+                          <br/><br/><br/><br/><br/>
+                          <center>
+                          <div className="img-box">
+                        
+                          <img src={pattern} alt="" className="main-img"/>
+                          <img src={profile} alt="" className="back-img"/>
+                          </div>
+                       
+                          </center>   
+                           </div>
                   </div>
               </div>
               <FooterPage/>
              </div>
+             
              
             
              </div>

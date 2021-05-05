@@ -7,7 +7,7 @@ const FooterPage = () => {
       
       
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Hiruna Gayashan </a>
         </MDBContainer>
      
     </MDBFooter>
